@@ -1,4 +1,4 @@
-package dayo1variables;
+package day01variables;
 
 public class Variables01 {
 

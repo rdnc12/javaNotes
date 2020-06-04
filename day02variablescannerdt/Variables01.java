@@ -2,6 +2,7 @@ package day02variablescannerdt;
 
 public class Variables01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// how to get min and max values of primitive data types
 		// boolean char byte short int long float double

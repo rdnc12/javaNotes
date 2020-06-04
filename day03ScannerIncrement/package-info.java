@@ -1,1 +1,1 @@
-package day03ScannerIncrement;
+package day03scannerincrement;
