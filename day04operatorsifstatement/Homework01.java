@@ -16,7 +16,7 @@ public class Homework01 {
 
 		int num = sc.nextInt(); // 3457
 
-		System.out.println("result: " + (num / 1000 + ((num % 1000) % 100) % 10));
+		System.out.println("result: " + (num / 1000 + (num % 10)));
 
 		sc.close();
 	}
