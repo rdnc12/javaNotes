@@ -23,6 +23,9 @@ public class Ifstatement02 {
 			System.out.println("The password is false");
 		}
 
+		if (!(password.equals("JavaLearner"))) {
+			System.out.println("The password is false");
+		}
 	}
 
 }
