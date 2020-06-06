@@ -13,10 +13,11 @@ public class Homework02 {
 		char ch = sc.nextLine().charAt(0);
 
 		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
-			System.out.println(ch + " is an alphabet.");
+			System.out.println(ch + " is in alphabet.");
 		else
-			System.out.println(ch + " is not an alphabet.");
-
+			System.out.println(ch + " is not in alphabet.");
+		
+		
 		sc.close();
 	}
 
