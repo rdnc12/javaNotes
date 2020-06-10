@@ -10,6 +10,11 @@ public class Ternary05 {
 		 * “This number has 3 digits.” Otherwise, output will be “This number has no 3
 		 * digits.” How can you decide the number of digits of an integer?
 		 */
+		// equals() ==> returns boolean
+		// equalsIgnoreCase() ==> returns boolean
+		// charAt() ==> returns char
+		// toLowerCase() and toUpperCase() ==> returns String
+		// length() ==> returns integer
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter an integer");
@@ -18,7 +23,7 @@ public class Ternary05 {
 		String result = num.length() == 3 ? "This number has 3 digits." : "This number has no 3 digits.";
 
 		System.out.println(result);
-		
+
 		sc.close();
 
 	}
