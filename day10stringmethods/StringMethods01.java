@@ -36,12 +36,14 @@ public class StringMethods01 {
 		System.out.println(str.replace("", "/")); // /E/a/s/y/,/ /J/a/v/a/ /i/s/ /E/a/s/y/
 		System.out.println(str.replace(" ","/")); // Easy,/Java/is/Easy
 		System.out.println(str.replace("a", "")); // Esy, Jv is Esy
+		str = "Learn java, earn money";
+		System.out.println(str.replace("earn", "?")); // L? java, ? money
 
 		// 9) replaceAll() ===> makes the same thing with the replace()
 		// There are two differences between them:
 		// a-) replaceAll() does not accept char as parameters
 		// b-) replaceAll() accepts "regex" as parameter
-		
+		str = "Easy, Java is Easy";
 		System.out.println(str.replaceAll("J", "L")); // Easy, Lava is Easy
 		
 		// regex stands for Regular Expressions
