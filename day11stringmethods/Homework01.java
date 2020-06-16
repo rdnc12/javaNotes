@@ -26,8 +26,7 @@ public class Homework01 {
 
 			System.out.println("This name contains neither a nor z");
 		}
-		
-
+	
 		sc.close();
 
 	}
