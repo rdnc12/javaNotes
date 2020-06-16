@@ -25,6 +25,8 @@ public class Homework03 {
 		}else {
 			System.out.println("The word is not equal 4...");
 		}
+		
+		sc.close();
 
 	}
 
