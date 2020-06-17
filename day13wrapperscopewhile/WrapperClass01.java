@@ -16,9 +16,9 @@ public class WrapperClass01 {
 		i = Integer.compare(15, 12); // 1 first number is greater than second
 		System.out.println(i);
 
-		boolean bl = Boolean.valueOf(2<1);
+		boolean bl = Boolean.valueOf(2 < 1);
 		System.out.println(bl); // false
-		
+
 		char ch = Character.toTitleCase('0');
 		System.out.println(ch);
 	}
