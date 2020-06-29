@@ -8,6 +8,7 @@ public class Array02 {
 		String arr[] = {"Angie", "Leo", "Brad", "Adam", "Jack"};
 		System.out.println(Arrays.toString(arr));//[Angie, Leo, Brad, Adam, Jack]
 		
+		
 		// How to sort elements in alphabetical order
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));//[Adam, Angie, Brad, Jack, Leo]
