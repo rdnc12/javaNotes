@@ -3,7 +3,7 @@ package day24varargsaccessmodifiersstringbuilder;
 public class A {
 	
 	private int x = 12;
-	int y = 13;
+	int y = 13;// y has default access modifier.c
 
 	public static void main(String[] args) {
 		
