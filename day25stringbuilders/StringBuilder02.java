@@ -52,6 +52,13 @@ public class StringBuilder02 {
 		        //How to use setCharAt()
 		        stb2.setCharAt(1, 'X');
 		        System.out.println(stb2);//aXcd
+		        StringBuilder stb = new StringBuilder("Learn ");
+
+				char[] ch = new char[] { 'J', 'A', 'V', 'A' };
+
+				stb.append(ch);
+
+				System.out.println(stb);
 
 
 	}

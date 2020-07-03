@@ -13,6 +13,7 @@ public class Arrays02 {
 				int arr2[] = {2, 7, 6};
 				int arr3[] = {6, 2, 7};
 				
+				
 				//1. Way: Using loops to check equality
 				int count = 0;
 				for(int i=0; i<arr1.length; i++) {

@@ -3,6 +3,7 @@ package day25stringbuilders;
 public class StringBuilder01 {
 
 	public static void main(String[] args) {
+		Integer number = Integer.valueOf("808");
 		String str = "Java";
 		System.out.println(join(str));
 		System.out.println(str);
