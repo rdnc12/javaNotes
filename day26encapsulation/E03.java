@@ -3,7 +3,7 @@ package day26encapsulation;
 public class E03 {
 	private String disease = "Headache";
 	private int ccn = 10001000;
-	private boolean old = false;​
+	private boolean old = false;
 
 	public static void main(String[] args) {
 		/*
@@ -13,7 +13,7 @@ public class E03 {
 		 4)Make the credit card number updatable but not readable
 		 5)Make the old both readable and updatable
 		*/
-​
+
 	}
 
 	// If the data type of encapsulated data is boolean do not use "get" for the
@@ -23,15 +23,15 @@ public class E03 {
 	// For setters every time we use set.
 	public boolean isOld() {
 		return old;
-	}​
+	}
 
 	public void setOld(boolean old) {
 		this.old = old;
-	}​
+	}
 
 	public String getDisease() {
 		return disease;
-	}​
+	}
 
 	public void setCcn(int ccn) {
 		this.ccn = ccn;
