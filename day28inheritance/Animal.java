@@ -13,6 +13,9 @@ public class Animal {
 		
 
 	}
+	
+	//If you select the constructor from “parent” class
+	//you cannot select the data type of the object from “child” class.
 
 
 }
