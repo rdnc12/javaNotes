@@ -11,7 +11,7 @@ public class Honda implements Gas, AirCondition {
 	*/
 
 	public static void main(String[] args) {
-       Honda hondaCar = new Honda();
+      Honda hondaCar = new Honda();
        
        hondaCar.seat();
        hondaCar.cold();
