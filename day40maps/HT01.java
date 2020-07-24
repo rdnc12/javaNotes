@@ -1,5 +1,6 @@
 package day40maps;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
@@ -17,6 +18,9 @@ public class HT01 {
 	public static void main(String[] args) {
 		
 		Map<String, String> ht = new Hashtable<>();
+		Map<Integer, Object> sampleMap = new HashMap<Integer, Object>();
+		sampleMap.put(null, 7);
+		   System.out.println(sampleMap);
 		ht.put("Cat", "Meow");
 		ht.put("Dog", "Bark");
 		ht.put("Lion", "Roar");
